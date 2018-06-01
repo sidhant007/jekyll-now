@@ -4,13 +4,13 @@ title: About
 permalink: /about/
 ---
 
-Some information about you!
+Hey, I am Sidhant, currently a 2nd Year computer science undergrad studying at National University of Singapore (NUS). I have a strong interest in algorithmic problem solving and recreational mathematics.
 
 ### More Information
 
-A place to include any other types of information that you'd like to include about yourself.
+NA
 
-### Independent Reading
+### Independent Reading (work in progress)
 
 - [ ] [Category Theory for Programmers](https://bartoszmilewski.com/2014/10/28/category-theory-for-programmers-the-preface/)
 - [ ] [Ruby on Rails by Michael Hartl](https://www.railstutorial.org/book)
