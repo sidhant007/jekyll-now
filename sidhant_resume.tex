@@ -1,0 +1,256 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Deedy - One Page Two Column Resume
+% LaTeX Template
+% Version 1.2 (16/9/2014)
+%
+% Original author:
+% Debarghya Das (http://debarghyadas.com)
+%
+% Original repository:
+% https://github.com/deedydas/Deedy-Resume
+%
+% IMPORTANT: THIS TEMPLATE NEEDS TO BE COMPILED WITH XeLaTeX
+%
+% This template uses several fonts not included with Windows/Linux by
+% default. If you get compilation errors saying a font is missing, find the line
+% on which the font is u% XeLaTeX can use any Mac OS X font. See the setromanfont command below.
+% Input to XeLaTeX is full Unicode, so Unicode characters can be typed directly into the source.
+
+% The next lines tell TeXShop to typeset with xelatex, and to open and save the source with Unicode encoding.
+
+%!TEX TS-program = xelatex
+%!TEX encoding = UTF-8 Unicode
+
+
+% operating system or comment the line out to use the default font.
+% 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% 
+% TODO:
+% 1. Integrate biber/bibtex for article citation under publications.
+% 2. Figure out a smoother way for the document to flow onto the next page.
+% 3. Add styling information for a "Projects/Hacks" section.
+% 4. Add location/address information
+% 5. Merge OpenFont and MacFonts as a single sty with options.
+% 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% CHANGELOG:
+% v1.1:
+% 1. Fixed several compilation bugs with \renewcommand
+% 2. Got Open-source fonts (Windows/Linux support)
+% 3. Added Last Updated
+% 4. Move Title styling into .sty
+% 5. Commented .sty file.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% Known Issues:
+% 1. Overflows onto second page if any column's contents are more than the
+% vertical limit
+% 2. Hacky space on the first bullet point on the second column.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\documentclass[]{sidhant-resume}
+\usepackage{fontspec,xltxtra,xunicode}
+\defaultfontfeatures{Mapping=tex-text}
+\setromanfont[Mapping=tex-text]{Hoefler Text}
+\setsansfont[Scale=MatchLowercase,Mapping=tex-text]{Gill Sans}
+\setmonofont[Scale=MatchLowercase]{Andale Mono}
+\usepackage{fancyhdr}
+ 
+\pagestyle{fancy}
+\fancyhf{}
+ 
+\rfoot{Page \thepage \hspace{1pt}}
+\begin{document}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     LAST UPDATED DATE
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\lastupdated
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     TITLE NAME
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\namesection{Sidhant}{Bansal}{ \urlstyle{same}\href{mailto:sidhbansal@gmail.com}{sidhbansal@gmail.com} | (+65)-9861-4153}
+
+%\vspace{\topsep} % Hacky fix for awkward extra vertical space
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     COLUMN ONE
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{minipage}[t]{0.32\textwidth} 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     EDUCATION
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Education} 
+
+\subsection{National University \newline of Singapore}
+\descript{Bachelor of Computing (Honours) in Computer Science}
+\vspace{\topsep} % Hacky fix for awkward extra vertical space
+\location{ 
+2017 - Present \\
+CGPA: 5.0/5.0}
+\sectionsep
+
+\subsection{Delhi Public \newline School Dwarka}
+\descript{Grad. May 2017 |  New Delhi, India \\
+Grade 12 - {\myfont 95.4\%} \\
+Grade 10 - {\myfont 10.0} CGPA}
+\vspace{\topsep} % Hacky fix for awkward extra vertical space
+\location{President of \textcolor{black}{\textbf{\href{http://www.coreis.us/}{C.O.R.E}}}, the computing club.}
+\sectionsep
+
+%\section{Societies}
+%\subsection{DPS Dwarka}
+%\descript{}
+%\location{Academic Session 2016 - 2017}
+%\begin{tightemize}
+%\vspace{\topsep} % Hacky fix for awkward extra vertical space
+%\item President of \textcolor{black}{\textbf{\href{http://www.coreis.us/}{C.O.R.E}}}, the computing club.
+%\item Vice President of AXIOM, the mathematics club.
+%\end{tightemize}
+%\sectionsep
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     COURSEWORK
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Coursework}
+CS{\myfont1231} (Discrete Structures) \\
+CS{\myfont2105} (Computer Networks) \\
+MA{\myfont2101} (Linear Algebra {\myfont2}) \\
+CS{\myfont3233} (Competitive Coding) \\
+\section{Teaching}
+\subsection{Spring 2018}
+Lab TA - CS{\myfont2040}C \\
+(Data Structures and Algorithms)
+\sectionsep
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     SKILLS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Skills}
+\subsection{Proficient:}
+C++ \textbullet{} Java \textbullet{} NodeJs
+\sectionsep
+\subsection{Intermediate:}
+Python \textbullet{}  SQL \textbullet{} Octave
+\sectionsep
+\subsection{Others:}
+Git \textbullet{} Bash
+\sectionsep
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     LINKS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Links} 
+LinkedIn://  \href{https://in.linkedin.com/in/sidhant-bansal}{\bf sidhantbansal} \\
+Github:// \href{https://github.com/sidhant007}{\bf sidhant007} \\
+DevPost:// \href{https://devpost.com/Sidhant}{\bf sidhant} \\
+Codeforces:// \href{http://codeforces.com/profile/sidhant}{\bf sidhant} \\
+CodeChef:// \href{https://www.codechef.com/users/sidhant007}{\bf sidhant007} \\
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     COLUMN TWO
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\end{minipage} 
+\hfill
+\begin{minipage}[t]{0.65\textwidth} 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     EXPERIENCE
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Experience}
+
+\runsubsection{Hack\&Roll 2018}
+\descript{}
+\vspace{\topsep} % Hacky fix for awkward extra vertical space
+\location{January 2018 | NUS, Singapore}
+\vspace{\topsep} % Hacky fix for awkward extra vertical space
+\vspace{\topsep} % Hacky fix for awkward extra vertical space
+\begin{tightemize}
+\item Won under the top 8 category of the hackathon for our project, \textcolor{black}{\textbf{\href{https://devpost.com/software/geotroner}{GeoTroner}}} a real-time multiplayer online game based on geographical location of the user inspired from the game Tron and Pokemon Go.
+\item Built it using NodeJs, Sockets.io and Bootstrap.
+\end{tightemize}
+\sectionsep
+
+\runsubsection{CODECHEF}
+\descript{| PROBLEM SETTER }
+\vspace{\topsep} % Hacky fix for awkward extra vertical space
+\location{January 2017 - Present}
+\vspace{\topsep} % Hacky fix for awkward extra vertical space
+\vspace{\topsep} % Hacky fix for awkward extra vertical space
+\begin{tightemize}
+\item Designed \textcolor{black}{\textbf{\href{https://www.codechef.com/tags/problems/sidhant007}{algorithmically challenging problems}}}  for online contests on CodeChef for their monthly CodeChef Challenge Contests.
+\item Attempted by {\myfont 12,000+} participants on CodeChef with an accuracy rate of {\myfont 2 - 3\%}.
+\end{tightemize}
+\sectionsep
+
+\runsubsection{TECHNICAL BLOG WRITING}
+\descript{| CONTRIBUTOR }
+\vspace{\topsep} % Hacky fix for awkward extra vertical space
+\location{March 2016 - November 2016 | Delhi, India}
+\vspace{\topsep} % Hacky fix for awkward extra vertical space
+\begin{tightemize}
+\item Wrote a {\myfont 2} post tutorial series titled \textcolor{black}{\textbf{\href{http://codeforces.com/blog/entry/43499}{FFT - The tough made simple}}}, on \textbf{Codeforces} describing how Fast Fourier Transform works and its variants.
+\item Received over {\myfont 350+} upvotes from the CodeForces community.
+\end{tightemize}
+\sectionsep
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     AWARDS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Competitive Programming} 
+
+\runsubsection{ACM INTERCOLLEGIATE PROGRAMMING CONTEST}
+\descript{}
+\vspace{\topsep} % Hacky fix for awkward extra vertical space
+\location{November 2017 | Jakarta, Indonesia}
+\vspace{\topsep} % Hacky fix for awkward extra vertical space
+\begin{tightemize}
+\item Ranked \textcolor{black}{\textbf{\href{https://competition.binus.ac.id/icpc2017/final.html}{{\myfont 5th} at ACM-ICPC Asia Jakarta On-Site Regional Contest}}} under the guidance of \textcolor{black}{\textbf{\href{http://www.comp.nus.edu.sg/~stevenha/}{Dr. Steven Halim}}}.
+\end{tightemize}
+\sectionsep
+
+\runsubsection{International Olympiad in Informatics (IOI) }
+\descript{}
+\vspace{\topsep} % Hacky fix for awkward extra vertical space
+\location{August 2017 | Tehran, Iran}
+\vspace{\topsep} % Hacky fix for awkward extra vertical space
+\begin{tightemize}
+\item Secured \textcolor{black}{\textbf{\href{http://stats.ioinformatics.org/people/6237}{bronze medal at International Olympiad in Informatics (IOI) {\myfont 2017}}}}. Ranked {\myfont 85/304} worldwide and was {\myfont 1st} in Indian contingency.
+\end{tightemize}
+\sectionsep
+
+\runsubsection{Codechef Snackdown}
+\descript{}
+\vspace{\topsep} % Hacky fix for awkward extra vertical space
+\location{July 2016 | Mumbai, India}
+\vspace{\topsep} % Hacky fix for awkward extra vertical space
+\begin{tightemize}
+\item Secured \textcolor{black}{\textbf{\href{https://www.codechef.com/snackdown/2016/result/SNCKFL16}{{\myfont 21st} position}}} in the finals of CodeChef Snackdown {\myfont 2016}, an annual multi-round global programming tournament with more than {\myfont 9,000} teams from {\myfont 92} countries.
+\end{tightemize}
+\sectionsep
+
+\end{minipage} 
+\end{document}  \documentclass[]{article}
