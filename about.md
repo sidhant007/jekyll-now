@@ -8,7 +8,7 @@ Hey, I am Sidhant, currently a 2nd Year computer science undergrad studying at N
 
 ### More Information
 
-NA
+[Resume]({{ site.baseurl }}/resume.pdf)
 
 ### Independent Reading (work in progress)
 
