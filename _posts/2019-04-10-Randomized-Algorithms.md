@@ -14,10 +14,8 @@ All the material + my notes for the course can be found [here](https://www.dropb
 Note - I was one of the average students in the course, so don't consider these as the only possible learnings from this course. Incase you are already acquainted with this stuff just read up this [blog post](https://www.scottaaronson.com/blog/?p=3712) recommended by our prof. It is the tl;dr version.
 
 1. Inequalities:
-  - We are taught a LOT of inequalities, this image consists of all those that were taught and useful.
-
+  - We are taught a LOT of inequalities, this image consists of all those that were taught and useful.<br>
   [<img src="{{ site.baseurl }}/images/cs5330-inequalities.png" alt="Inequalities used in the course" style="width: 400px;"/>]({{ site.baseurl }}/)
-
   - We have probabilities inequalities in this course like Union Bound, Markov, Chebyshev and Chernoff. These are taught and applied aggresively throughout the course. One imp. thing to note is that if you are bad at a Probability course like MA2216 because you aren't good with pdf/join distributions/proofs for continous distributions like Gaussian, Poission, etc. then it shouldn't affect your performance in this course, since here the R.Vs are generally bernoulli or binomial in most cases AND often we are not trying to get a precise answer for a probabilistic event, instead we are always trying to bound it. Getting a hang of where to add/drop stuff when trying to bound things algebrically is a skill that one picks up during this course and which is quite hard to become good at.
   - We also exploit this kind of algberaic structure a lot in the course: $$(1 - 1/n)^{n * c \log{n}} \leq e^{c * \log{n}} \leq \frac{1}{n^c}$$, where c is small positive integer.
 
@@ -30,10 +28,8 @@ Note - I was one of the average students in the course, so don't consider these 
 
 3. QuickSort Analysis:
   - Two ways to analyse the expected complexity. Interesting thing to learn was that JUST commenting on Expected Time Complexity of an algorithm is NOT enough to say it is a good/fast algorithm. Think about plotting Time taken (y-axis) vs Probability (x-axis) graph, it can happen that the tail doesn't fall rapidly in this graph, so although mean is low, but there is enough variances that often your algo runs super slowly.
-  - I tried to think of an algorithm with this kind of slowness, but I think it is hard to formalise such a case.
-
+  - I tried to think of an algorithm with this kind of slowness, but I think it is hard to formalise such a case.<br>
   [<img src="{{ site.baseurl }}/images/cs5330-distribution.jpg" alt="Faulty distribution?" style="width: 400px;"/>]({{ site.baseurl }}/)
-
   - Because if this happens then $$E[X]$$, no longer remains in $$O(N)$$ and instead goes up, since $$constant * \Omega{(N)}$$ also contributes to $$E[X]$$
   - Therefore we also analyse with what probability is the time complexity far way from the mean and try to show that this is very low. Aka $$\Pr(X \geq c*N\log{N}) \leq \frac{1}{N^c}$$.
   - The insight was, that just like in stats, the mean of a distribution is NOT an idle way to boil down all the information about the distribution, similarly here just boiling down all the information to $$E[X]$$ and commenting about it is NOT enough to be confident about the algorithm.
