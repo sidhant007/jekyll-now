@@ -19,6 +19,7 @@ I have a strong interest in algorithmic problem solving and recreational mathema
 
 <link rel="stylesheet" href="https://rubenwardy.com/lichess_widgets/lichess_widgets.css" />
 <script src="https://rubenwardy.com/lichess_widgets/lichess_widgets.js"></script>
+- A list of problems set by me for various programming contests can be found [here]({{ site.baseurl }}/problems-list)
 - I try :/ <script>lichess_widgets.profile("light", "sidhant007");</script>
 - Places I have visited
 {% raw %}
