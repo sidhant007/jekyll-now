@@ -13,16 +13,16 @@ ACM-ICPC India Regionals -
   3. [ALFRED](https://www.codechef.com/problems/ALFRED) (Amritapuri Regional, December 2018) (Tag - Interactive, Mathematics, Binary Search)
   4. [FLIPPING POLYGONS](https://www.codechef.com/problems/NGONS) (Gwalior-Pune Regional, December 2018) (Tag - Data Strucutre, Mathematics)
 
-IOI (International Olympiad in Informatics) Training Camp 2018 -
-  1. [K PERFECT MATCHINGS](https://www.codechef.com/IOITC181/problems/KPERFMAT) (Contributor) (Day 1) (Tag - Bipartite Matching)
+Indian IOI Training Camp -
+  1. [K PERFECT MATCHINGS](https://www.codechef.com/problems/KPERFMAT) (Contributor) (2018, Day 1) (Tag - Bipartite Matching)
 
 Codechef -
-  1. [FINDING THE MATRIX](https://www.codechef.com/COOK90/problems/FINDA) (Cook-Off, January 2018) (Tag - Mathematics, Graph Theory)
-  2. [MAKE ARRAY GREAT AGAIN](https://www.codechef.com/COOK90/problems/MAGA) (Cook-Off, January 2018) (Tag - DP)
-  3. [MULTIPLE OF 3](https://www.codechef.com/COOK90/problems/MULTHREE) (Cook-Off, January 2018) (Tag - Mathematics)
-  4. [SURVIVE IN CHOCOLAND](https://www.codechef.com/COOK90/problems/SURVIVE) (Cook-Off, January 2018) (Tag - Greedy)
-  5. [CLONING](https://www.codechef.com/JUNE17/problems/CLONEME) (Challenge, June 2017) (Tag - Hashing, Data Structure)
-  6. [FANTASTIC FOUR](https://www.codechef.com/JAN17/problems/FOURSQ) (Challenge, January 2017) (Tag - Mathematics, Data Structure)
+  1. [FINDING THE MATRIX](https://www.codechef.com/problems/FINDA) (Cook-Off, January 2018) (Tag - Mathematics, Graph Theory)
+  2. [MAKE ARRAY GREAT AGAIN](https://www.codechef.com/problems/MAGA) (Cook-Off, January 2018) (Tag - DP)
+  3. [MULTIPLE OF 3](https://www.codechef.com/problems/MULTHREE) (Cook-Off, January 2018) (Tag - Mathematics)
+  4. [SURVIVE IN CHOCOLAND](https://www.codechef.com/problems/SURVIVE) (Cook-Off, January 2018) (Tag - Greedy)
+  5. [CLONING](https://www.codechef.com/problems/CLONEME) (Challenge, June 2017) (Tag - Hashing, Data Structure)
+  6. [FANTASTIC FOUR](https://www.codechef.com/problems/FOURSQ) (Challenge, January 2017) (Tag - Mathematics, Data Structure)
 
 NUS -
   1. [Join Strings](https://open.kattis.com/problems/joinstrings) (CS2040C PE 2019 Semester 2) (Tag - Linked List)
