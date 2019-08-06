@@ -57,10 +57,24 @@ Consider $Q1$ where A = having positive result in the test (Green) and B = havin
 Now when representing all these events, if we represent them on a line, how will you arrange them ?
 You might consider ordering all these 4 pairs, something like this {(True, True), (True, False), (False, True), (False, False)}. But uh, this destroys some relationship informations.
 
-Example: n(True, True) / (n(True, True) + n(False, True)) = $\frac{P(A \cap B)}{P(B)} = P(A | B)$, can no longer be easily seen.
+Example: n(True, True) / (n(True, True) + n(False, True)) = $\frac{P(A \cap B)}{P(B)} = P(A \| B)$, can no longer be easily seen.
 
 So, we again need two dimensions, however now they are just being used so that the subset/superset relationships between these 4 possibilities can be depicted easily.
 The key here is to get WHY is two dimensional venn diagrams enough and WHY does 1 dimensional not make it.
+
+Well, consider what all relationships we want:
+1. (True, True) connected with (True, False)
+2. (True, True) connected with (False, True)
+3. (True, False) connected with (False, False)
+4. (False, True) connected with (False, False)
+
+Basically (a, b) is connected with (a, not b) and with (not a, b).
+Now there are 4 nodes and 4 edges so we can't represent this WITHOUT a cycle.
+It actually looks like a diamond and that is why you need the 2-dimension. In one dimenion, you can represent a chain but not a diamond.
+
+The venn diagram actually emulates this diamond. All the egdes in the diamond can be seen as edges shared between different regions of the venn diagram. Sharing an edge is a much stronger relationship and actually establishes superset/subset area relationship as compared to merely sharing a vertex/point in the venn diagram.
+
+ [<img src="{{ site.baseurl }}/images/bayes-4.png" alt="venn diagram = diamond" style="width: 400px;"/>]({{ site.baseurl }}/)
 
 ### Case 3: 2 dependent events
 
