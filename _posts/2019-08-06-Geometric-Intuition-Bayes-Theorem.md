@@ -52,7 +52,7 @@ Let B be those sequence of 2 coin tosses in which #Heads = 1, i.e {HT, TH}, and 
 
 Dependent events are tricky to work with. You can't consider them dimensionally different like indepedent events, because one event happening can be related to another event happening. Now each possibility in the sample space can be defined by two things, {did A happen, did B happen}, this {bool, bool} pair represents each sample unit.
 
-Consider $Q1$ where A = having positive result in the test and B = having cancer.
+Consider $Q1$ where A = having positive result in the test (Green) and B = having cancer (Red)
 
 Now when representing all these events, if we represent them on a line, how will you arrange them ?
 You might consider ordering all these 4 pairs, something like this {(True, True), (True, False), (False, True), (False, False)}. But uh, this destroys some relationship informations.
@@ -66,13 +66,13 @@ The key here is to get WHY is two dimensional venn diagrams enough and WHY does 
 
 So now just represent A as a circle and B as another circle. What does LHS of Bayes' becomes ?
 
-$P(B \| A) = $Intersection area / Area of A
+$P(B \| A) = $Intersection area / Area of A = Purple Area / Green Area
 
 where Intersection area = %age area of B, where the $\%age = P(A \| B)$
 
 Therefore Intersection area $= P(A \| B) * Pr(B)$
 
-And Area of A = P(A) = Intersection area + Remaining area $= P(A \| B) * P(B) + $ %age area of A i.e not in B $= P(A \| B) * Pr(B) + Pr(A \| B^c) * Pr(B^c)$
+And Area of A = P(A) = Intersection area + Remaining area $= P(A \| B) * P(B) + $ %age area of A i.e not in B $= P(A \| B) * P(B) + P(A \| B^c) * P(B^c)$
 
 Now put intersection area / area of A = the RHS of Bayes' theorem.
 
@@ -82,9 +82,9 @@ Here we go:
 
  [<img src="{{ site.baseurl }}/images/bayes-3.png" alt="two dependent events" style="width: 400px;"/>]({{ site.baseurl }}/)
 
-The crude approximation here is: Circle A is 1% (given) and intersection area of it is 80% (given) , so intersection area is $0.8\% \approx 1\%$
+The crude approximation here is: Circle B is 1% (given) and intersection area of it is 80% wrt to B (given) , so intersection area is $0.8\% \approx 1\%$
 
-Now the area of Circle B is $\approx 1\% + (9.6\% \text{ of } 99\%) \approx 1\% + (10\% \text{ of } 100\%) \approx 11\%$.
+Now the area of Circle A is $\approx 1\% + (9.6\% \text{ of } 99\%) \approx 1\% + (10\% \text{ of } 100\%) \approx 11\%$.
 
 So, approx answer is $\frac{1\%}{11\%} \approx 9\%$
 
