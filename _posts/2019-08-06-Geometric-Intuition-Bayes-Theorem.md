@@ -70,7 +70,7 @@ $P(B \| A) = $Intersection area / Area of A = Purple Area / Green Area
 
 where Intersection area = %age area of B, where the $\%age = P(A \| B)$
 
-Therefore Intersection area $= P(A \| B) * Pr(B)$
+Therefore Intersection area $= P(A \| B) * P(B)$
 
 And Area of A = P(A) = Intersection area + Remaining area $= P(A \| B) * P(B) + $ %age area of A i.e not in B $= P(A \| B) * P(B) + P(A \| B^c) * P(B^c)$
 
