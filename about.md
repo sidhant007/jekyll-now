@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-Hey, I am Sidhant, currently a 2nd Year computer science undergrad studying at National University of Singapore (NUS).
+Hey, I am Sidhant, currently a 3rd Year computer science undergrad studying at National University of Singapore (NUS).
 I have a strong interest in algorithmic problem solving and recreational mathematics.
 
 ### More Information
@@ -13,7 +13,7 @@ I have a strong interest in algorithmic problem solving and recreational mathema
 
 ### Contact me
 
-[sidhbansal@gmail.com](mailto:sidhbansal@gmail.com)
+sidhbansal at gmail.com
 
 ### Random Trivia
 
