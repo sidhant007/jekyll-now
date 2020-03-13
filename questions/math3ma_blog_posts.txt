@@ -1,0 +1,4 @@
+1. https://www.math3ma.com/blog/matrices-as-tensor-network-diagrams
+2. https://www.math3ma.com/blog/on-connectedness-intuitively
+3. https://www.math3ma.com/blog/matrices-probability-graphs
+4. https://www.math3ma.com/blog/crumbs-3
