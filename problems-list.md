@@ -12,9 +12,12 @@ ACM-ICPC India Regionals -
   2. [CODIE BIRD](https://www.codechef.com/problems/CODIE) (Hindustan Univeristy Regional, December 2017) (Tag - Mathematics, DP)
   3. [ALFRED](https://www.codechef.com/problems/ALFRED) (Amritapuri Regional, December 2018) (Tag - Interactive, Mathematics, Binary Search)
   4. [FLIPPING POLYGONS](https://www.codechef.com/problems/NGONS) (Gwalior-Pune Regional, December 2018) (Tag - Data Strucutre, Mathematics)
+  5. [INVERSE KNAPSACK](https://www.codechef.com/problems/INVSACK) (Gwalior-Pune Regional, December 2019) (Tag - Interactive, Binary Search)
+  6. [BINARY PALINDROME](https://www.codechef.com/problems/BINPALIN) (Gwalior-Pune Regional, December 2019) (Tag - String Hashing, Palindromic Tree)
 
 Indian IOI Training Camp -
   1. [K PERFECT MATCHINGS](https://www.codechef.com/problems/KPERFMAT) (Contributor) (2018, Day 1) (Tag - Bipartite Matching)
+  TO ADD MORE
 
 Codechef -
   1. [FINDING THE MATRIX](https://www.codechef.com/problems/FINDA) (Cook-Off, January 2018) (Tag - Mathematics, Graph Theory)
