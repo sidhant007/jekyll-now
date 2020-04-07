@@ -1,6 +1,6 @@
 ---
 layout: post
-title: The Journey - Part 1
+title: My CP Journey - Part 1
 ---
 
 Hey, so I initially wrote this draft regarding my journey in CP, to be posted by Codechef in one of their blogs, but that never took place. It was a while back that happened, so now I have polished that draft and added some more details to make it more complete.
