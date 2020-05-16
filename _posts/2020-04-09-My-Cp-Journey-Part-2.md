@@ -3,15 +3,13 @@ layout: post
 title: My CP Journey - Part 2
 ---
 
-[Here](http://www.sidhantbansal.com/My-Cp-Journey-Part-1/) is the first part.
-
-So I joined NUS (National University of Singapore). The competitive programming environment in NUS is competitive to say at the very least.
+[Here](http://www.sidhantbansal.com/My-Cp-Journey-Part-1/) is the first part. So I joined NUS (National University of Singapore). The competitive programming environment in NUS is competitive to say at the very least.
 
 The main driving force for CP in NUS is Prof. Steven Halim, who is the head coordinator for the ICPC within NUS + Author of CP3 book + Involved in IOI as Singapore head coach. His efforts + the good reputation of NUS attracts a few medallists from different olympiads every year. This ensures a regular supply of smart and competitive students interested in ICPC.
 
 Now let me first explain how ICPC regionals work in South East Asia. In South East Asia, you are allowed to attend at most two regionals in a single year and you are NOT restricted by national boundaries. That is you are allowed to compete in regionals of other countries. I think the reason behind this is that countries in South East Asia are not big, especially Singapore (which only has 4 - 5 technical universities) so you cannot conduct a regional with only teams from a single country. Also most regional sites have a quota for international teams, for example say Jakarta, Indonesia regional will have 30% quota of international teams where say NUS got allocated 4 slots (by the regionals administration team), then this means that the NUS coach can send any 4 team he wants (based on NUS's internal selection rules) to represent NUS at this regional. Unlike India, the international teams more often than not, don't have to sit in any sort of official prelims conducted by the regional site. Instead NUS has its own internal selection contest of some sort.
 
-In my batch we had 5-6 new IOI kids (Me, Bernard, Ranald, Sergio, Robin, Kwee Lung).
+In my batch we had 5-6 new IOI kids (Me, Bernard, Ranald, Sergio, Robin, Kwee Lung, Minh).
 
 **1st Year**: The ICPC selection process was as follows: An individual contest happened with students from all batches that do CP and let the ranklist obtained via it be represented as a set S.
 Then,
